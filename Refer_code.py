@@ -1,6 +1,6 @@
 # 1.bert
 
-!pip install -U tensorflow-text==2.6.0
+#pip install -U tensorflow-text==2.6.0
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
