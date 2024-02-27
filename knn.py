@@ -29,7 +29,6 @@ class Traindata(BaseModel):
     key_name:str
     value_name:str
 
-
 @app.post("/FakerType")
 def faker_type(reqdata:List):
     model = joblib.load('fakermodel')
