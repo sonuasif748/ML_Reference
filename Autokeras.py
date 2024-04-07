@@ -23,6 +23,7 @@ x_train = x_train.to_numpy()
 x_test = x_test.to_numpy()
 y_train =y_train.to_numpy()
 y_test= y_test.to_numpy()
+# sdv
 
 # Initialize the text classifier.
 clf = ak.TextClassifier(
